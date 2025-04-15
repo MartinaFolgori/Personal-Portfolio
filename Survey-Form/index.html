@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>        
+        <h1 id="title">
+            Survey-Form
+        </h1>
+        <p id="description">
+            <em>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </em>
+        </p>   
+    </header>
+        <main>
+            <form action="" id="survey-form">
+                <div class="form-group">
+
+                    <div class="form-id">
+                        <div class="form-name">
+                            <label for="name" id="name-label">
+                                Name
+                            </label>
+                            <input type="text" name="name" id="name" class="my-input-style" placeholder="Enter your name" required>
+                        </div>
+        
+                        <div class="form-email">
+                            <label for="email" id="email-label">
+                                Email
+                            </label>
+                            <input type="email" name="email" id="email" class="my-input-style" placeholder="Enter your Email" required>
+                        </div>
+                        
+                        <div class="form-number">
+                            <label for="number" id="number-label">
+                                Age
+                            </label>
+                            <input type="number" name="age" id="number" min="0" max="100" class="my-input-style" placeholder="Age">
+                        </div>
+                    </div>       
+
+                    <div class="form-sel">
+                        <div class="form-elit">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit?
+                            </p>
+                            <select name="role" id="dropdown" class="my-input-style" required>
+                                <option disabled selected value="Select current role">
+                                    Select current Lorem                       
+                                </option>
+                                <option value="ipsum">
+                                    Ipsum
+                                </option>
+                                <option value="distinctio">
+                                    Distinctio
+                                </option>
+                                <option value="amet">
+                                    Amet
+                                </option>
+                                <option value="consectetur">
+                                    Consectetur
+                                </option>
+                                <option value="other">
+                                    Other
+                                </option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-radio">
+                        <div class="form-recommended">
+                            <p>
+                                Fugit fuga iste officia nostrum soluta?
+                            </p>
+                            <label>
+                                <input type="radio" name="recommended" value="definitely" class="input-radio">
+                                Definitely
+                            </label>
+                            <label>
+                                <input type="radio" name="recommended" value="maybe" class="input-radio">
+                                Maybe
+                            </label>
+                            <label>
+                                <input type="radio" name="recommended" value="not-sure" class="input-radio">
+                                Not sure
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-sel">
+                        <div class="form-opt">
+                            <p>
+                                Voluptatum eius nisi vitae nobis possimus?
+                            </p>
+                            <select name="fav" id="dropdown" class="my-input-style" required>
+                                    <option disabled selected value="Select an option">
+                                        Select an option                    
+                                    </option>
+                                    <option value="elit">
+                                        Elit
+                                    </option>
+                                    <option value="Nulla">
+                                        Nulla
+                                    </option>
+                                    <option value="Iure">
+                                        Iure
+                                    </option>
+                                    <option value="Labore">
+                                        Labore
+                                    </option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-check">
+                        <div class="form-ipsum">
+                            <p>
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit?
+                            </p>
+                            <label>
+                                <input type="checkbox" name="prefer" value="front-end-pj" class="input-checkbox">
+                                Autem aperiam
+                            </label>
+                            <label>
+                                <input type="checkbox" name="prefer" value="back-end-pj" class="input-checkbox">
+                                Optio minima
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="form-text">
+                        <div class="form-sug">
+                            <p>
+                                Any comments or suggestions?
+                            </p>
+                            <textarea name="comments" id="comments" class="input-textarea" placeholder="Enter your comment here..."></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-btn">
+                        <button type="submit" id="submit" class="btn-submit">
+                            Submit
+                        </button>
+                    </div>
+
+                </div>                
+            </form>
+        </main>
+</body>
+</html>

@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.box-main {    
+    margin-top: 100px;
+}
+
+/*------------------------- NAV ------------------------*/
+
+.img-fluid {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+.box-navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    box-shadow: 0px 0px 5px 0px #000000;
+    z-index: 1;
+}
+
+.box-navbar figure {   
+    max-height: 100%;
+    height: auto;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.box-navbar ul {
+    display: flex;    
+    justify-content: flex-end;
+    list-style: none;
+    font-size: 18px;    
+    gap: 20px;
+    margin-right: 80px;    
+    letter-spacing: 0.5px;
+}
+
+.navlinks a {
+    color: white;    
+    text-decoration: none;        
+    padding: 10px 20px;
+}
+
+.navlinks a:hover {
+    color: rgba(0, 128, 128, 0.865);
+    background-color: rgba(128, 128, 128, 0.046);
+    border-radius: 4px;
+}
+
+.navlinks a:active {
+    color: black;
+}
+
+/*------------------------------------------------------*/
+
+
+
+/*------------------------- HERO ------------------------*/
+
+.box-hero {
+    width: 98%;
+    margin: 0 auto;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.box-hero h2 {
+    font-size: 30px;
+}
+
+.inp {
+    color: black;
+    font-size: 18px;
+    padding: 15px;
+    text-align: center;
+}
+
+.btn-hero {
+    color: white;
+    width: 50%;
+    padding: 15px;
+    margin-top: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: rgba(0, 128, 128, 0.865);
+}
+
+.btn-hero a, .btn-art a {
+    color: rgba(255, 255, 255, 0.799);
+    text-decoration: none;
+    padding: 10%;
+    border-radius: 4px;
+}
+
+.btn-hero a:hover, .box-art a:hover {
+    background-color: rgba(255, 255, 255, 0.098);
+}
+
+/*------------------------------------------------------*/
+
+
+
+/*------------------------- FEATURES ------------------------*/
+
+.box-features {
+    display: flex;
+    flex-direction: column;    
+    margin: 50px 0;
+}
+
+.box-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-icon-txt {
+    margin-left: 50px;
+}
+
+.box-icon-txt h2 {
+    margin-bottom: 0;
+}
+
+/*------------------------------------------------------*/
+
+
+/*------------------------- VIDEO ------------------------*/
+
+.box-video {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*------------------------------------------------------*/
+
+
+
+/*------------------------- ARTICLES ------------------------*/
+
+.box-article {
+    display: flex;
+    justify-content: center;
+}
+
+.box-art {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 4px;
+    padding-bottom: 15px; 
+    margin: 50px 20px 0 20px;
+}
+
+.box-art-title {    
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    background-color: rgba(0, 128, 128, 0.865);
+    letter-spacing: 1px;
+}
+
+.btn-art {
+    color: white;
+    width: 80%;
+    padding: 15px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    background-color: rgba(0, 128, 128, 0.865);
+}
+
+.box-icon-txt h2 {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+
+
+/*------------------------------------------------------*/
+
+
+/*------------------------- FOOTER ------------------------*/
+
+.box-footer {    
+    height: 100%;
+    background-color: #333;
+    text-align: right;
+    padding-bottom: 5px;
+}
+
+.spn-footer {
+    color: rgba(128, 128, 128, 0.301);
+    padding: 0 40px;
+}
+
+.box-footer ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-bottom: 0;
+    padding: 20px 20px 0 0;
+}
+
+.box-footer a {
+    color: black;
+    text-decoration: none;    
+    padding: 10px 20px;
+}
+
+.box-footer a:hover {
+    color: rgba(0, 128, 128, 0.865);
+    background-color: rgba(128, 128, 128, 0.046);
+    border-radius: 4px;
+}
+
+.box-footer a:active {
+    color: black;
+}

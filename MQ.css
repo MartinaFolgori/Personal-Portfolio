@@ -1,0 +1,207 @@
+/*
+Breakpoint	Class infix	Dimensions
+X-Small	None	<576px
+Small	sm	≥576px
+Medium	md	≥768px
+Large	lg	≥992px
+Extra large	xl	≥1200px
+Extra extra large	xxl	≥1400px
+*/
+
+@media screen and (min-width: 0) {
+    .navbar {
+        justify-content: center;
+    }
+    .navbar ul {   
+        margin-right: 0;
+    }
+
+    .navbar a {
+        padding: 20px 30px;
+    }
+
+    .welcome-section h1 {
+        font-size: 40px;
+    }
+    
+    .welcome-section p {
+        font-size: 30px;
+    }
+
+    .projects-section h2 {
+        font-size: 20px;        
+        margin: 40px 0 40px 0;
+    }
+
+    .single-prj {    
+        width: 100%;
+    }
+
+    .showBtn {
+        width: 50%;
+    }
+    
+    .showBtn a {
+        font-size: 22px;
+    }
+    
+    .codeBtn {
+        font-size: 22px;
+    }
+    
+    .contact-section h2 {
+        font-size: 21px;
+    }
+    
+    .contact-section p {
+        font-size: 16px;
+    }
+
+    .links-div {
+        gap: 15px;
+    }
+
+    .links-div a {
+        font-size: 21px;        
+    }
+
+    #footer {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (min-width: 577px) {
+    .navbar {
+        justify-content: center;
+    }
+    .navbar > ul {   
+        margin-right: 0;
+    }
+
+    .navbar a {
+        font-size: 25px;
+        padding: 15px 40px;
+    }
+
+    .welcome-section h1 {
+        font-size: 60px;
+    }
+    
+    .welcome-section p {
+        font-size: 40px;
+    }
+
+    .projects-section h2 {
+        font-size: 30px;        
+        margin: 70px 0 60px 0;
+    }
+
+    .single-prj {    
+        width: 100%;
+    }
+
+    .prj-img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .prj-title {
+        padding: 28px;   
+        font-size: 25px;
+    }
+
+    .showBtn {
+        width: 25%; 
+    }
+    
+    .showBtn a {
+        font-size: 25px;
+    }
+    
+    .codeBtn {
+        font-size: 25px;
+    }
+
+    .contact-section h2 {
+        font-size: 45px;
+    }
+    
+    .contact-section p {
+        font-size: 20px;
+    }
+
+    .links-div {
+        gap: 50px;
+    }
+
+    .links-div a {
+        font-size: 30px;        
+    }
+
+    #footer {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 890px) {
+    .navbar {
+        justify-content: flex-end;
+    }
+    .navbar > ul {   
+        margin-right: 40px;
+    }
+
+    .projects-section h2 {
+        font-size: 40px;
+    }
+
+    .single-prj {    
+        width: 30%;
+    }
+
+    .prj-img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+
+
+    .prj-title {
+        padding: 15px;   
+        font-size: 20px;
+    }
+
+    .showBtn {
+        width: 20%; 
+    }
+    
+    .showBtn a {
+        font-size: 20px;
+    }
+    
+    .codeBtn {
+        font-size: 20px;
+    }
+
+    .contact-section h2 {
+        font-size: 40px;
+    }
+    
+    .contact-section p {
+        font-size: 18px;
+    }
+
+    .links-div {
+        gap: 50px;
+    }
+
+    .links-div a {
+        font-size: 20px;        
+    }
+
+    #footer {
+        font-size: 18px;
+    }
+}

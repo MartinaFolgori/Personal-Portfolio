@@ -1,0 +1,35 @@
+@media screen and (min-width: 0) and (max-width: 575px) { /* sta per: genera una MQ partendo da quel valore in poi, in questo caso fino a 575px*/
+    
+    .box-nav {
+        width: 100%;
+        background-color: white;
+        height: 50%;
+        position: absolute;
+        top: 0;
+        border-right: none;
+        border-bottom: solid ;
+    }
+
+    .navlinks {
+        height: 70%;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .navlinks li {   
+        font-size: 25px;
+        font-weight: 300;
+    }
+
+    .box-main {
+        position: absolute;
+        top: 50%;
+        left: 0;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 850px) {
+    nav header {
+        font-size: 29px;
+    }
+}
