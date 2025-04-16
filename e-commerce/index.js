@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 let numData = document.querySelector('#numData');
                 numData.innerHTML = arr.length;
 
-                let imgMin = 600;
+                let imgMin = 600; 
                 let imgMax = 800;
 
                 arr.forEach((datum) => {

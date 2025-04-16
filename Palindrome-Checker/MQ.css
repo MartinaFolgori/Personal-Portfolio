@@ -1,0 +1,85 @@
+/*
+
+@media (min-width: 576px) { ... }      dispositivi medio-piccoli 
+@media (min-width: 768px) { ... }      tablet
+@media (min-width: 992px) { ... }      desktop 
+
+*/
+
+@media screen and (min-width: 576px) {
+    
+    .logo {
+        width: 300px;
+        padding: 200px 0 35px 0;
+    }
+    
+    h1 {
+        font-size: 50px;
+    }
+    
+    .inputLabel {
+        font-size: 25px;
+    }
+    
+    .palindromeInput {
+        width: 350px;  
+        font-size: 40px;
+    }
+    
+    .checkBtn {
+        width: 20%;    
+        padding: 15px;    
+        font-size: 25px;
+    }
+    
+    .resultDiv {
+        font-size: 45px;
+    }
+    
+    .definitionDiv {
+        width: 98%;       
+        font-size: 35px;
+    }
+    
+}
+@media (min-width: 992px) { 
+
+    .logo {
+        width: 300px;
+        padding: 45px 0 35px 0;
+    }
+    
+    h1 {
+        font-size: 60px;
+    }
+    
+    .palindromeDiv {     
+        width: 55%;
+    }
+
+    .inputLabel {
+        font-size: 30px;
+    }
+    
+    .palindromeInput {
+        width: 450px;    
+        font-size: 50px;
+    }
+    
+    .checkBtn {
+        width: 20%;       
+        font-size: 30px;
+    }
+    
+    .resultDiv {
+        font-size: 55px;
+    }
+    
+    .definitionDiv {
+        width: 55%;         
+        font-size: 35px;
+        padding: 10px;
+    }
+
+ }
+
